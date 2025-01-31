@@ -12,6 +12,7 @@ from PIL import Image
 
 from src.Models import OCR_short, OCR_long
 
+print("new_branch")
 # Чтение входных параметров
 if len(argv) != 1:
     file_path = argv[1]
